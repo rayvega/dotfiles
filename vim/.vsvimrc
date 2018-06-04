@@ -1,0 +1,11 @@
+set ignorecase
+set incsearch
+set smartcase
+
+set clipboard=unnamed
+
+set vsvim_useeditordefaults
+
+set nu
+
+set backspace=indent,eol,start
