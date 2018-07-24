@@ -25,12 +25,11 @@
 (package-initialize)
 
 ;; # evil mode #
-;; requirement -> M-x package-install RET evil 
+(package-install 'evil)
 (evil-mode 1)
 
 ;; # csharp mode & omnisharp #
-;; requirement -> M-x package-install RET omnisharp 
-;; no other commands needed
+(package-install 'omnisharp)
 
 ;; # set theme # 
 (load-theme 'misterioso t)
