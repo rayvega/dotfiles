@@ -25,7 +25,7 @@
 (package-initialize)
 
 ;; # evil mode #
-;; requirement -> M-x package-install RET evil 
+(package-install 'evil)
 (evil-mode 1)
 
 ;; # csharp mode & omnisharp #
