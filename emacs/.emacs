@@ -5,7 +5,7 @@
 ;; # custom # 
 (custom-set-variables
  '(ido-mode (quote both) nil (ido))
- '(python-shell-interpreter "python3.5")
+ '(python-shell-interpreter "python3")
  '(tool-bar-mode nil))
 
 ;; # recent files #
