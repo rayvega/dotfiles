@@ -23,7 +23,7 @@
 (require 'package)
 ;; add melpa (3rd party user-contributed) package repository
 (add-to-list 'package-archives
-	     '("melpa" . "http://melpa.org/packages/") t)
+	     '("melpa" . "https://melpa.org/packages/") t)
 ;; add marmalade (3rd party user-contributed) package repository
 ;; (add-to-list 'package-archives
 ;;              '("marmalade" . "http://marmalade-repo.org/packages/") t)
