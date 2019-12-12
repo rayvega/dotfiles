@@ -67,6 +67,9 @@
 ;; # org mode #
 ;; code syntax highlighting
 (setq org-src-fontify-natively t)
+;; run code support
+(org-babel-do-load-languages
+    'org-babel-load-languages '((python . t)))
 
 ;; # stackoverflow #
 (require 'webjump)
