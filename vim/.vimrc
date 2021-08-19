@@ -7,4 +7,4 @@ set guioptions-=T
 
 syntax enable
 
-colorscheme slate
+colorscheme murphy
