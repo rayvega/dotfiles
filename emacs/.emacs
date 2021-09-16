@@ -70,6 +70,8 @@
 ;; run code support
 (org-babel-do-load-languages
     'org-babel-load-languages '((python . t)))
+;; enable org tempo structure templates (e.g. wrap code blocks via `<s TAB`)
+(require 'org-tempo)
 
 ;; # stackoverflow #
 (require 'webjump)
